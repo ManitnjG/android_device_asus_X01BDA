@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2020 The LineageOS Project
+# Copyright (C) 2020 The infinityOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_X01BD.mk
+    $(LOCAL_DIR)/infinity_X01BD.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_X01BD-eng \
-        lineage_X01BD-user \
-        lineage_X01BD-userdebug
+    infinity_X01BD-eng \
+        infinity_X01BD-user \
+        infinity_X01BD-userdebug
