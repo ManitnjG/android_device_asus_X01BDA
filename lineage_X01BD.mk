@@ -15,7 +15,7 @@ $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 # Inherit from X01BD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
-
+TARGET_USES_PICO_GAPPS := true
 TARGET_BOOT_ANIMATION_RES := 1080
 MATRIXX_MAINTAINER := ManitnjG
 # Device identifier. This must come after all inclusions.
